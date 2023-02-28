@@ -2,6 +2,9 @@ package com.example.affirmations
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.affirmations.adapters.ItemAdapter
 import com.example.affirmations.data_classes.Datasource
 import com.example.affirmations.databinding.ActivityMainBinding
